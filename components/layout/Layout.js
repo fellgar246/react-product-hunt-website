@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Header';
-import { Global, css } from '@emotion/core';
+import { Global, css } from '@emotion/react';
 import Head from 'next/head';
 
 const Layout = props => {
@@ -11,6 +11,7 @@ const Layout = props => {
                 :root {
                   --gris: #3d3d3d;
                   --gris2: #6f6f6f;
+                  --gris3: #e1e1e1;
                   --naranja: #da552f;
                 }
 
@@ -49,7 +50,6 @@ const Layout = props => {
         />
 
         <Head>
-          <html lang='es' />
           <title>Product Hunt Firebase y Next.js</title>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
           <link rel="preconnect" href="https://fonts.googleapis.com"/>
